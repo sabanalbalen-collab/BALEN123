@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript  web output #1<title></title>
+    <style>
+        .even { color:aqua}
+        .odd { color:blue}
+        #numberlist { list-style: none; style: none; padding-left: 0; }
+        </style>
+        <head>
+
+        body {
+
+            <h1>javacsript web output #1</h1>
+
+            insert any positive numbers:
+            <input type="number" id="numberinput"><br>
+            <button onclick="insertnumber()">insert</button>
+            <button onclick="clearEntry()">clearEntry <button>
+
+
+        <fieldset>
+            <legend>inserted numbers</legend>
+            <ol id="numberlist"></ol>
+            <p><b>TOTAL:</b> <span id="total">0</span><br>
+                <p><b>HIGHEST:</b> <span id =highest>0</span></p>
+                    <p><b>LOWEST:</b> <span id = lowest>0</span></p>
+            </fieldset>
+
+        <button onclick="clearItems()">clear Items</button>
+        <button onclick="getTotal()">get Total</button>
+        <button onclick="identifyHighestAndLowest()">identify Highest and lowest Number</button>
+        
+        Sort by:
+        <select id="sortby" onchange="sortNumbers(this.value)
+        <option>Please select</option>
+        <option value="asc">Ascending</option>
+        <option value="desc">Descending  </option>
+        </select>
+        <script src="main.js"></script>
+
+        
+            
+        </body>
+        </html>
